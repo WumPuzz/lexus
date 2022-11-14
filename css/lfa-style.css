@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+}
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('/fonts/Proxima\ Nova\ Font.otf')
+  format('opentype');
+  
+}
+header{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/LFA-standalone.jpg');
+    background-size: cover;
+    color:white;
+}
+
+header h1{
+    margin-left:10%;
+    padding-top: 5%;
+   
+}
+  
+  .content{
+      height: 100%;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 54px;
+  }
+  .content h2{
+    margin-left:10%;
+  }
+  .content h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 108px;
+  }
+  .thin{
+    font-family: 'Roboto', sans-serif;
+  }
+.content-2{
+    height: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 54px;
+    background-repeat: no-repeat;
+    width: 100%;
+    color:black;
+}
+
+.containe {
+  display: flex;
+}
+
+
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  
+}
+
+.explanation {
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+.lift{
+  margin-bottom:100%;
+}
+
+/* CSS */
+.button-81 {
+  background-color: black;
+  border: 0 solid #385274;
+  width:180px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: white;
+  color: black !important;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+.end{
+  height:50%;
+  background-image: url('/img/end.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  color:white;
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}

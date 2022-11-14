@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+#landing{
+    background-image: url('/img/LFA-LC500h.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150%;
+    color: white;
+    text-align: center;
+}
+#landing h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: block;
+    padding-top: 300px;
+    font-size: 100px;
+}
+.white{
+    width:100%;
+    color:black;
+    background-color: white;
+}
+.fixed{
+    position: fixed;
+}
+#lfa-stats{
+    height: 100%;
+    color: white;
+    text-align: center;
+}
